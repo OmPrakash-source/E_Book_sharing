@@ -1,0 +1,45 @@
+🎓 Project Title:
+E-Book Sharing Platform (Admin + User System)
+
+🧠 What You Should Know Before Presenting:
+1. ✅ Basic Purpose
+“This is a web-based platform where users can register, upload, download, and like PDF e-books. Admins can manage uploaded books and users.”
+
+2. ✅ Key Features to Mention
+Feature	Description
+User Registration & Login	With password hashing and session management
+Role-based Access	Admins vs Regular Users
+File Upload	PDF upload with timestamped filenames
+File Download	Tracks and updates download count
+Like System	One user can like one file only once
+Admin Panel	View & delete any file
+Secure	Uses prepared statements to prevent SQL injection
+
+3. ✅ Tech Stack
+“I built this project using core technologies to understand full-stack development from scratch:”
+
+Frontend: HTML, CSS (Basic styling)
+
+Backend: PHP (Core, no frameworks)
+
+Database: MySQL (Relational + secure)
+
+Tools: XAMPP, phpMyAdmin
+
+4. ✅ Your Role
+“I developed this project completely by myself. I designed the database schema, built the frontend forms, handled backend validation, role checks, and also error handling.”
+
+5. ✅ What Makes It Impressive
+“Instead of using third-party frameworks, I manually handled file uploads, likes with foreign keys, login sessions, and admin-level controls. This gave me deeper understanding of how systems work behind the scenes.”
+
+💬 Sample Interview Answer (When Asked: "Tell me about your project")
+“I built an E-Book Sharing Platform where users can register, upload, download, and like PDF files. I implemented role-based login — so that admins can manage the entire platform including deleting uploaded files. Users can only like each file once, and downloads are tracked. I used PHP and MySQL with session handling, password hashing, and file validation. This helped me understand full-stack development and database relationships.”
+
+📦 Bonus Tip: Bring a .sql file & demo link if possible
+If you're in a real interview, bring:
+
+Local demo (on XAMPP)
+
+.sql file for quick import
+
+Printed DB schema (ER diagram or table relations)
